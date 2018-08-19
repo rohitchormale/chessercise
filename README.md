@@ -15,18 +15,17 @@ python test_chessercise.py
 - course(str) 
 direction to traverse. possible values - TOP, RIGHT, BOTTOM, LEFT, RTOP, LTOP, RBOTTOM, LBOTTOM
 
-- squares(int)
+- squares (int)
 number of squres to traverls
 
-- posf(str)
+- posf (str)
 file value of given position
 
-- posr(int)
+- posr (int)
 rank value of given position
 
-- exact(bool)
-Traverse exact path if True. If boundry crossed, return False 
-Traverse partial path if False until boundry.
+- exact (bool)
+In case boundry is crossed when traversing, return zero positions if True. If False, when boundry is crossed, return all traversed positions till boundry.
 
 
 ## Notes
